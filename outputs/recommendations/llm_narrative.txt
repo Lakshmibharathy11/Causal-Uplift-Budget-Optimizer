@@ -1,0 +1,39 @@
+
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Role:** Senior marketing analytics advisor
+   - **Task:** Write an executive promotion strategy recommendation
+   - **Input Data:** JSON summary with model performance, population stats, tier ROI, budget allocation, do-not-disturb stats, and a key insight.
+   - **Critical Rules:**
+     1. Every numeric claim MUST come directly from the JSON. No inventing, estimating, or rounding beyond what's in the JSON.
+     2. Cite JSON field in brackets after each numeric claim, e.g., `[population.persuadables_pct]`.
+     3. Structure exactly in four sections: SITUATION, RECOMMENDATION, BUDGET GUIDANCE, RISK FLAGS.
+     4. Audience: CMO/Marketing VP. No statistical jargon, no mention of Qini, uplift scores, or model names.
+     5. Keep each section to 3-4 sentences maximum.
+     6. No bullet points — plain prose only.
+
+2.  **Deconstruct JSON Data for Claims:**
+   - `population.total_users_analyzed`: 559184
+   - `population.persuadables_pct`: 13.2
+   - `population.persuadables_count`: 73667
+   - `population.do_not_disturb_pct`: 1.5
+   - `population.do_not_disturb_count`: 8552
+   - `population.sure_things_pct`: 77.9
+   - `population.lost_causes_pct`: 7.4
+   - `model_performance.lift_at_top_30pct`: "87.8%"
+   - `tier_roi.High.users`: 32090
+   - `tier_roi.High.mean_uplift`: 0.156
+   - `tier_roi.High.roi`: 15.6
+   - `tier_roi.High.cost_to_target`: 320.9
+   - `tier_roi.Medium.users`: 22886
+   - `tier_roi.Medium.mean_uplift`: 0.0323
+   - `tier_roi.Medium.roi`: 3.23
+   - `tier_roi.Medium.cost_to_target`: 228.86
+   - `tier_roi.Low.users`: 18691
+   - `tier_roi.Low.mean_uplift`: 0.0143
+   - `tier_roi.Low.roi`: 1.43
+   - `tier_roi.Low.cost_to_target`: 186.91
+   - `budget_allocation.total_budget`: 2000
+   - `budget_allocation.total_spend`: 7

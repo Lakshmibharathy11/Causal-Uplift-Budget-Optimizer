@@ -1,0 +1,56 @@
+{
+  "model_performance": {
+    "t_learner_qini": 0.4061,
+    "transformed_outcome_qini": 0.7257,
+    "selected_model": "Transformed Outcome",
+    "calibration_error": 6.5e-05,
+    "lift_at_top_30pct": "87.8%"
+  },
+  "population": {
+    "total_users_analyzed": 559184,
+    "persuadables_count": 73667,
+    "persuadables_pct": 13.2,
+    "do_not_disturb_count": 8552,
+    "do_not_disturb_pct": 1.5,
+    "sure_things_pct": 77.9,
+    "lost_causes_pct": 7.4
+  },
+  "tier_roi": {
+    "High": {
+      "users": 32090,
+      "mean_uplift": 0.156,
+      "roi": 15.6,
+      "cost_to_target": 320.9
+    },
+    "Medium": {
+      "users": 22886,
+      "mean_uplift": 0.0323,
+      "roi": 3.23,
+      "cost_to_target": 228.86
+    },
+    "Low": {
+      "users": 18691,
+      "mean_uplift": 0.0143,
+      "roi": 1.43,
+      "cost_to_target": 186.91
+    }
+  },
+  "budget_allocation": {
+    "total_budget": 2000,
+    "total_spend": 736.67,
+    "budget_utilization_pct": 36.8,
+    "expected_incremental_conversions": 6012.0,
+    "effective_cpa": 0.1225,
+    "tiers_funded": [
+      "High",
+      "Medium",
+      "Low"
+    ]
+  },
+  "do_not_disturb": {
+    "users_excluded": 8552,
+    "budget_saved": 85.52,
+    "conversions_protected": 653.0
+  },
+  "key_insight": "Targeting only the top 13.2% of users (Persuadables) captures 87.8% of total incremental lift at a budget ceiling of $736.67 \u2014 spending beyond this produces zero additional incremental conversions."
+}
