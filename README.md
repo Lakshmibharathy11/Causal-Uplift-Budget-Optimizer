@@ -1,4 +1,4 @@
-# 📡 Causal Uplift Intelligence Platform
+# Causal Uplift Intelligence Platform
 
 > **Who converts because of your ad — and who would have anyway?**
 
