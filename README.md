@@ -148,6 +148,7 @@ At $736.67 (test set scale), all 73,667 Persuadables have been reached. Any addi
 ---
 
 ## Project Structure
+```text
 Causal-Uplift-Budget-Optimizer/
 ├── streamlit_app.py              # Five-page Streamlit dashboard
 ├── src/
@@ -162,8 +163,7 @@ Causal-Uplift-Budget-Optimizer/
 ├── data/                         # Criteo dataset (downloaded via HuggingFace)
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## Limitations and Future Work
 
